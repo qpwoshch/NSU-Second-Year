@@ -1,9 +1,0 @@
-root = true
-
-[*.c]
-indent_style = tab
-tab_width = 4
-
-[*.cpp]
-indent_style = tab
-tab_width = 4
