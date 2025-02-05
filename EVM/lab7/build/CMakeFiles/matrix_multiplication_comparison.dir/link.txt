@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -march=native CMakeFiles/matrix_multiplication_comparison.dir/main.c.o -o matrix_multiplication_comparison  -lm /lib/x86_64-linux-gnu/libopenblas.so
