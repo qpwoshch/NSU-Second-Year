@@ -55,7 +55,6 @@ void USBDevice::printInfo() const {
     std::cout << "Configurations: " << (int)desc.bNumConfigurations << std::endl;
     std::cout << "---------------------------------" << std::endl;
 
-    // Вывод информации о конфигурации устройства
     for (int i = 0; i < (int)config->bNumInterfaces; ++i) {
         const libusb_interface& inter = config->interface[i];
         std::cout << "| Interface Number: " << std::setw(2) << (int)inter.num_altsetting << std::endl;
@@ -93,8 +92,7 @@ USBEnumerator::USBEnumerator() : ctx(nullptr) {
         throw std::runtime_error("Failed to initialize libusb.");
     }
 
-    // Установка уровня логирования через libusb_set_option
-    libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, 3);  // Set debug level
+    libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, 3);
 }
 
 USBEnumerator::~USBEnumerator() {
@@ -112,7 +110,6 @@ void USBEnumerator::enumerateDevices() {
     std::cout << "=============================="
                  "=============================" << std::endl;
 
-    // Перебор устройств и вывод информации о каждом
     for (ssize_t i = 0; i < cnt; ++i) {
         devices.push_back(std::make_unique<USBDevice>(devs[i]));
         devices.back()->printInfo();

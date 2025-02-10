@@ -6,7 +6,6 @@
 using namespace std;
 
 
-// Функция для заполнения массива в прямом порядке
 void fill_direct(vector<int>& arr) {
     size_t n = arr.size();
     for (size_t i = 0; i < n - 1; ++i) {
@@ -15,7 +14,6 @@ void fill_direct(vector<int>& arr) {
     arr[n - 1] = 0;
 }
 
-// Функция для заполнения массива в обратном порядке
 void fill_reverse(vector<int>& arr) {
     size_t n = arr.size();
     for (size_t i = 1; i < n; ++i) {
@@ -24,7 +22,6 @@ void fill_reverse(vector<int>& arr) {
     arr[0] = n - 1;
 }
 
-// Функция для заполнения массива в случайном порядке
 void fill_random(std::vector<int>& arr) {
     size_t n = arr.size();
 
@@ -33,13 +30,11 @@ void fill_random(std::vector<int>& arr) {
         arr[i] = i;
     }
 
-    // Алгоритм Фишера-Йетса: перемешивание массива
     for (size_t i = n - 1; i > 0; --i) {
         size_t j = rand() % (i + 1);
         std::swap(arr[i], arr[j]);
     }
 
-    // Построение циклического списка
     std::vector<int> temp = arr;
     for (size_t i = 0; i < n - 1; ++i) {
         arr[temp[i]] = temp[i + 1];
@@ -47,7 +42,6 @@ void fill_random(std::vector<int>& arr) {
     arr[temp[n - 1]] = temp[0];
 }
 
-// Функция для измерения времени обхода
 long long measure_access_time(const vector<int>& arr, size_t iterations) {
     size_t n = arr.size();
     volatile int k = 0;
@@ -62,7 +56,7 @@ long long measure_access_time(const vector<int>& arr, size_t iterations) {
 int main() {
     const size_t Nmin = 1024 / sizeof(int);
     const size_t Nmax = 32768 * 1024 / sizeof(int);
-    const size_t iterations = 1000; // Количество обходов
+    const size_t iterations = 1000;
 
     vector<size_t> sizes;
     for (size_t n = Nmin; n <= Nmax; n *= 2) {
@@ -70,24 +64,21 @@ int main() {
     }
 
     cout << "Size\tDirect\tReverse\tRandom" << endl;
-    cout << fixed << setprecision(6); //6 знаков после запятой
+    cout << fixed << setprecision(6);
 
     for (size_t n : sizes) {
         vector<int> arr(n);
 
-        // Прямой обход
         fill_direct(arr);
-        measure_access_time(arr, 1); // "Прогрев" кэш-памяти
+        measure_access_time(arr, 1);
         long long direct_time = measure_access_time(arr, iterations);
 
-        // Обратный обход
         fill_reverse(arr);
-        measure_access_time(arr, 1); // "Прогрев" кэш-памяти
+        measure_access_time(arr, 1);
         long long reverse_time = measure_access_time(arr, iterations);
 
-        // Случайный обход
         fill_random(arr);
-        measure_access_time(arr, 1); // "Прогрев" кэш-памяти
+        measure_access_time(arr, 1);
         long long random_time = measure_access_time(arr, iterations);
 
         cout << n/256 << "KB\t" << (direct_time / (double)(n * iterations)) << "\t"
