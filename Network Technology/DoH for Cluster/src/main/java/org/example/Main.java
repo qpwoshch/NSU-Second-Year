@@ -14,7 +14,6 @@ import java.security.cert.X509Certificate;
 public class Main {
     public static void main(String[] args) {
         try {
-            // Создаем TrustManager, который доверяет всем сертификатам (только для тестов!)
             TrustManager[] trustAllCerts = new TrustManager[]{
                     new X509TrustManager() {
                         public X509Certificate[] getAcceptedIssuers() { return null; }
@@ -30,40 +29,32 @@ public class Main {
                     .sslContext(sslContext)
                     .build();
 
-            // Параметры DoH запроса
             String dohUrl = "https://192.168.222.227/dns-query";
             String domainName = "example.com";
             int recordType = 1; // A record
 
-            // Формируем URI
             URI uri = URI.create(dohUrl + "?name=" + domainName + "&type=" + recordType);
 
-            // Создаем HTTP запрос
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(uri)
                     .header("Accept", "application/dns-json")
                     .GET()
                     .build();
 
-            // Отправляем запрос
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-            // Проверяем код ответа и Content-Type
             System.out.println("HTTP Status: " + response.statusCode());
             System.out.println("Content-Type: " + response.headers().firstValue("Content-Type").orElse("unknown"));
             System.out.println("Response body:\n" + response.body());
 
-            // Проверяем, что ответ JSON
             String contentType = response.headers().firstValue("Content-Type").orElse("");
             if (!contentType.contains("json")) {
                 throw new RuntimeException("Server returned non-JSON response. Content-Type: " + contentType);
             }
 
-            // Парсим JSON ответ
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode jsonNode = objectMapper.readTree(response.body());
 
-            // Обрабатываем ответ
             if (jsonNode.has("Status") && jsonNode.get("Status").asInt() == 0) {
                 if (jsonNode.has("Answer")) {
                     JsonNode answerArray = jsonNode.get("Answer");
