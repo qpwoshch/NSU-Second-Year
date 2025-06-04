@@ -1,0 +1,12 @@
+/home/qpwoshch/cmake-3.29.0/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S "/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2" -B "/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2/cmake-build-debug"
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2/cmake-build-debug

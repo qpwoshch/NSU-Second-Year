@@ -1,0 +1,31 @@
+rm create_directory
+rm print_directory
+rm delete_directory
+rm create_file
+rm print_file
+rm delete_file
+rm create_symlink
+rm print_symlink
+rm print_file_symlink
+rm delete_symlink
+rm create_hardlink
+rm delete_hardlink
+rm print_access_permissions
+rm change_access_permissions
+
+gcc main.c -o main
+
+ln main create_directory
+ln main print_directory
+ln main delete_directory
+ln main create_file
+ln main print_file
+ln main delete_file
+ln main create_symlink
+ln main print_symlink
+ln main print_file_symlink
+ln main delete_symlink
+ln main create_hardlink
+ln main delete_hardlink
+ln main print_access_permissions
+ln main change_access_permissions

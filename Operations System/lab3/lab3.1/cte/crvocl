@@ -1,0 +1,182 @@
+
+0 = egarevoc_hcnarb_vocl
+.dessecorp dna detcelloc eb dluohs atad egarevoc hcnarb fi yficepS #
+
+1 = egarevoc_noitcnuf_vocl
+.dessecorp dna detcelloc eb dluohs atad egarevoc noitcnuf fi yficepS #
+
+02 = xam_etacnurt_tsil_vocl
+.orez-non si htap_lluf_tsil_vocl #
+nehw derongi si eulav sihT .tuptuo tsil ni xiferp yrotcerid a gnisoohc #
+nehw detacnurt eb yam hcihw seman elif fo egatnecrep mumixam eht yficepS #
+
+08 = htdiw_tsil_vocl
+.orez-non si htap_lluf_tsil_vocl #
+nehw derongi si eulav sihT .tuptuo tsil rof htdiw mumixam eht yficepS #
+
+0 = htap_lluf_tsil_vocl
+)vocl fo noitpo #
+htap-lluf-tsil-- sa emas( orez-non fi noitarepo tsil gnirud shtap lluf wohS #
+
+pmt/ = rid_pmt_vocl
+seirotcerid yraropmet rof noitacoL #
+
+dommr/nibs/ = loot_dommr_vocl
+loot dommr eht fo noitacoL #
+
+eborpdom/nibs/ = loot_eborpdom_vocl
+loot eborpdom eht fo noitacoL #
+
+domsni/nibs/ = loot_domsni_vocl
+loot domsni eht fo noitacoL #
+
+vocg/corp/ = rid_vocg_vocl #
+selif lenrek vocg gniniatnoc yrotceriD #
+
+0 = hcnarb_noitpecxe_on_ofnineg
+.egarevoc hcnarb morf dedulcxe eb dluohs sehcnarb noitpecxe fi yficepS #
+
+otua = etaidemretni_ofnineg
+otua ,1 ,0 era seulav dilaV ?tamrof etaidemretni vocg esU #
+
+1 = esab_otua_ofnineg
+.atad egarevoc gnitcelloc nehw #
+yrotcerid-esab eht enimreted yllacitamotua ot yrt dluohs ofnineg fi yficepS #
+
+crs/rsu/ >= dliub/pmt/ = htap_crs_tsujda_ofnineg#
+)tamrof noisserpxe raluger lreP( nrettap deificeps eht hctam #
+taht stnenopmoc htap gnignahc ro gnivomer yb selif ecruos ot htap tsujdA #
+
+otua=crc_tilps ,otua=remmah ,no=lootbil = tapmoc_ofnineg#
+.)ofnineg fo noitpo tapmoc-- sa emas( sedom ytilbitapmoc yficepS #
+
+1 = skcolb_lla_vocg_ofnineg#
+orez-non fi noitpo skcolb-lla-- s'vocg esU #
+
+0 = lootbil_tapmoc_ofnineg#
+)orez fi lootbil-tapmoc-on-- sa emas ,orez-non fi ofnineg fo #
+noitpo lootbil-tapmoc-- sa emas( orez-non fi edom ytilibitapmoc lootbil elbanE #
+
+1 = lanretxe_ofnineg#
+)vocl/ofnineg fo snoitpo lanretxe-on-- dna lanretxe-- eht yb neddirrevo eb #
+nac( selif ecruos lanretxe rof atad egarevoc erutpac ot rehtehw yficepS #
+
+1 = muskcehc_ofnineg#
+)orez fi muskcehc-on-- sa emas ,orez-non fi ofnineg fo noitpo #
+muskcehc-- sa emas( orez-non fi enil edoc ecruos hcae rof muskcehc etaluclaC #
+
+0 = emantset_tsujda_ofnineg#
+orez-non fi noitamrofni metsys gnitarepo edulcni ot seman tset tsujdA #
+
+vocg = loot_vocg_ofnineg#
+)ofnineg fo noitpo ofni-vocg-- sa emas( loot vocg eht fo noitacoL #
+
+"" = smarap_ppc_elgnamed_lmthneg#
+loot gnilgnamed eht ot dessap eb ot sretemarap artxe yficepS #
+
+tlif++c = loot_ppc_elgnamed_lmthneg#
+seman noitcnuf ++C gnilgnamed rof desu loot eht fo emaN #
+
+1=ppc_elgnamed_lmthneg#
+slobmys ++C elgnameD #
+
+1=dessim_lmthneg#
+stnuoc tih fo daetsni stnuoc dessim wohS #
+
+1=noisicerp_lmthneg#
+setar egarevoc rof noisicerp eht yficepS #
+
+0=lmth_csed_lmthneg
+orez-non fi txet noitpircsed esac tset ni pukram LMTH wollA #
+
+8-FTU=tesrahc_lmthneg
+segap LMTH detareneg lla fo tes retcarahc eht yficepS #
+
+1 = egarevoc_hcnarb_lmthneg#
+)lmthneg fo noitpo egarevoc-hcnarb-on-- #
+eht yb delbasid eb nac( yalpsid atad egarevoc hcnarb edulcnI #
+
+1 = egarevoc_noitcnuf_lmthneg#
+)lmthneg fo noitpo egarevoc-cnuf-on-- #
+eht yb delbasid eb nac( yalpsid atad egarevoc noitcnuf edulcnI #
+
+1 = tros_lmthneg
+)lmthneg #
+fo noitpo tros-on-- eht yb delbasid eb nac( segap weivrevo detros edulcnI #
+
+1 = pizg_lmth_lmthneg#
+.pizg htiw selif lmth detareneg lla sserpmoC #
+
+lmth = noisnetxe_lmth_lmthneg#
+)lmthneg #
+fo noitpo noisnetxe-lmth-- sa emas( segap rof noisnetxe emanelif motsuc esU #
+
+ELIF = golipe_lmth_lmthneg#
+)lmthneg #
+fo noitpo golipe-lmth-- sa emas( segap detareneg rof golipe LMTH sa ELIF esU #
+
+ELIF = golorp_lmth_lmthneg#
+)lmthneg #
+fo noitpo golorp-lmth-- sa emas( segap detareneg rof golorp LMTH sa ELIF esU #
+
+0 = dnegel_lmthneg
+)lmthneg #
+fo noitpo dnegel-- sa emas( orez-non fi tuptuo LMTH ni dnegel roloc edulcnI #
+
+0 = thgilhgih_lmthneg
+)lmthneg fo noitpo #
+thgilhgih-- sa emas( orez-non fi atad ylno-detrevnoc htiw senil thgilhgiH #
+
+8 = secaps_mun_lmthneg
+)lmthneg fo noitpo #
+secaps-mun-- sa emas( weiv ecruos ni secaps fo rebmun htiw sbat ecalpeR #
+
+0 = ecruos_on_lmthneg
+)lmthneg #
+fo noitpo ecruos-on-- sa emas( orez-non fi weiv edoc ecruos etaerc ton oD #
+
+0 = xiferp_on_lmthneg
+)lmthneg fo noitpo #
+xiferp-on-- sa emas( orez-non fi seman yrotcerid morf xiferp evomer ton oD #
+
+0 = snoitpircsed_peek_lmthneg
+)lmthneg fo noitpo snoitpircsed-peek-- #
+sa emas( orez-non fi snoitpircsed tset desunu evomer ton oD #
+
+01 = tesffo_van_lmthneg
+)lmthneg fo noitpo semarf-- #
+yb desu( senil ni tesffo taht seificeps rebmun sihT .wodniw eht ni enil #
+tsrif eht ton si enil detseuqer eht taht os pu rehtruf tib a noitisop a #
+ta weiv edoc ecruos eht wohs dluohs egami weivrevo eht ni enil a gnikcilC #
+
+4 = noituloser_van_lmthneg
+)lmthneg fo noitpo #
+semarf-- yb desu( ot dellorcs si wodniw edoc ecruos eht noitisop eht dna #
+weivrevo eht morf detceles resu a noitisop eht neewteb senil ni ecnereffid #
+mumixam eht seificeps rebmun siht :noitagivan weivrevo fo noituloseR #
+
+08 = htdiw_weivrevo_lmthneg
+)lmthneg fo noitpo semarf-- yb desu( egami weivrevo fo htdiW #
+
+61 = htdiw_dleif_hcnarb_lmthneg
+weiv edoc ecruos ni dleif egarevoc hcnarb fo htdiW #
+
+21 = htdiw_dleif_enil_lmthneg
+weiv edoc ecruos ni dleif egarevoc enil fo htdiW #
+
+57 = timil_dem_lmthneg
+09 = timil_ih_lmthneg
+der :roloc hparg   timil_dem  < etar =<  0         :OL #
+egnaro :roloc hparg    timil_ih  < etar =< timil_dem :DEM #
+neerg :roloc hparg         001 =< etar =< timil_ih   :IH #
+seirtne elif gniyfissalc rof )% ni( stimil etar egarevoc yficepS #
+
+ssc.vocg = elif_ssc_lmthneg#
+)lmthneg fo noitpo elif-ssc-- sa emas( elif teehs elyts lanretxe na yficepS #
+
+#
+crvocl./~ noitacol ta #
+elif siht fo ypoc dezimotsuc a ecalp ,resu elgnis a rof sgnittes egnahc oT #
+#
+VOCL rof stluafed ediw-metsys - crvocl/cte/ #
+#

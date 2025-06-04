@@ -1,0 +1,20 @@
+About Minesweeper
+Minesweeper is a classic single-player puzzle game where the objective is to clear a rectangular board containing hidden mines without detonating any of them.
+Game Rules:
+- Left-click to reveal a cell
+- Right-click to place/remove a flag where you suspect a mine
+- Numbers show how many mines are adjacent to that cell
+- Avoid clicking on cells with mines
+- Open all cells without the mines to win the game
+
+Controls:
+- Graphics mode: Mouse: Left click to open, Right click to flag
+- Text mode: Commands like "Open 5" or "Flag 12"
+
+Tips:
+1. Start from the corners or edges
+2. Look for obvious patterns in numbers
+3. Use flags to mark confirmed mines
+
+Version: 1.0
+Developed by: [qpwoshch/NSU]

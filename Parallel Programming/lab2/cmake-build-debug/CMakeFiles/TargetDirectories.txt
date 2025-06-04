@@ -1,0 +1,4 @@
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2/cmake-build-debug/CMakeFiles/main.dir
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2/cmake-build-debug/CMakeFiles/openmp_prog.dir
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

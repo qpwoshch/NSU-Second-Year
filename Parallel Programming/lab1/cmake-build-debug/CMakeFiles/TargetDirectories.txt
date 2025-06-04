@@ -1,0 +1,4 @@
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab1/cmake-build-debug/CMakeFiles/lab1.dir
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab1/cmake-build-debug/CMakeFiles/MPIr.dir
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qpwoshch/all_projects/NSU-Second-Year/Parallel Programming/lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

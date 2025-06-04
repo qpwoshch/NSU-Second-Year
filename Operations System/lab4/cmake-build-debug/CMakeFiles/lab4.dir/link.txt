@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/lab4.dir/lab4.1/lab4.1a.c.o CMakeFiles/lab4.dir/lab4.1/lab4.1d.c.o CMakeFiles/lab4.dir/lab4.1/lab4.1e.c.o CMakeFiles/lab4.dir/lab4.1/lab4.1g.c.o CMakeFiles/lab4.dir/lab4.2/lab4.2a.c.o CMakeFiles/lab4.dir/lab4.2/lab4.2c.c.o -o lab4

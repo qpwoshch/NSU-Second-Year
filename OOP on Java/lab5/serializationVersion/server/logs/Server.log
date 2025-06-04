@@ -1,0 +1,7 @@
+2025-05-04 00:27:09 INFO  Main:10 - The beginning of the program
+2025-05-04 00:27:21 INFO  Main:15 - fds connect on server
+2025-05-04 00:27:28 INFO  Main:15 - zzz connect on server
+2025-05-04 00:27:29 INFO  Main:35 - zzz wrote: fsd
+2025-05-04 00:27:32 INFO  Main:35 - fds wrote: ggg
+2025-05-04 00:27:33 INFO  Main:45 - zzz is disconnect
+2025-05-04 00:27:36 INFO  Main:45 - fds is disconnect

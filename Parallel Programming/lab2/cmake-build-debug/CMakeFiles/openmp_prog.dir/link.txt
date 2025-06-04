@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/openmp_prog.dir/OpenMP1.cpp.o CMakeFiles/openmp_prog.dir/OpenMP2.cpp.o CMakeFiles/openmp_prog.dir/OpenMPWithSchelude.cpp.o -o openmp_prog  /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a

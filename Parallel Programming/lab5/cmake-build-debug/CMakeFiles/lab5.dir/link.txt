@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/lab5.dir/unbalanced.cpp.o -o lab5

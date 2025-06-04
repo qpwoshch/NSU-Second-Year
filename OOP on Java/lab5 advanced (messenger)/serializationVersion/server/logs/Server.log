@@ -1,0 +1,13 @@
+2025-05-27 02:32:13 INFO  Main:10 - The beginning of the program
+2025-05-27 02:32:31 INFO  Main:51 -  is disconnect
+2025-05-27 02:32:32 INFO  Main:51 -  is disconnect
+2025-05-27 02:32:36 INFO  Main:23 - zzz connect on server
+2025-05-27 02:32:37 INFO  Main:40 - zzz wrote: ewq
+2025-05-27 02:32:40 INFO  Main:23 - ewqrtt connect on server
+2025-05-27 02:32:42 INFO  Main:40 - ewqrtt wrote: eqw
+2025-05-27 02:32:54 INFO  Main:23 - fffffffff connect on server
+2025-05-27 02:32:55 INFO  Main:51 - fffffffff is disconnect
+2025-05-27 02:33:09 INFO  Main:23 - qqqqqqq connect on server
+2025-05-27 02:33:10 INFO  Main:51 - qqqqqqq is disconnect
+2025-05-27 02:33:11 INFO  Main:51 - ewqrtt is disconnect
+2025-05-27 02:33:12 INFO  Main:51 - zzz is disconnect

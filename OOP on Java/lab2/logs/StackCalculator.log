@@ -1,0 +1,128 @@
+2025-03-26 17:37:24 INFO  Controller:49 - The program will read data from the console
+2025-03-26 17:37:24 INFO  Parser:18 - The program considered a line: +
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: +
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: +
+2025-03-26 17:37:24 INFO  Plus:12 - The start of the Plus command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 ERROR Factory:53 - Error executing command: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 ERROR Controller:66 - Error executing command there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Parser:18 - The program considered a line: PUSH 5
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: PUSH 5
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: PUSH 5
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 5.0 added to stack
+2025-03-26 17:37:24 INFO  Parser:18 - The program considered a line: PUSH 3
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: PUSH 3
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: PUSH 3
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 3.0 added to stack
+2025-03-26 17:37:24 INFO  Parser:18 - The program considered a line: # gf
+2025-03-26 17:37:24 INFO  Controller:59 - The program considered a comment
+2025-03-26 17:37:24 INFO  Parser:18 - The program considered a line: EXIT
+2025-03-26 17:37:24 INFO  Controller:55 - Program completed
+2025-03-26 17:37:24 INFO  Controller:27 - The program will read data from the file
+2025-03-26 17:37:24 ERROR Controller:44 - Error while open fileC:\Users\User\all_projects\java\lab2\file.txt (Не удается найти указанный файл)
+2025-03-26 17:37:24 INFO  Controller:46 - Program completed
+2025-03-26 17:37:24 INFO  Controller:27 - The program will read data from the file
+2025-03-26 17:37:24 INFO  Parser:12 - The program considered a line: +
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: +
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: +
+2025-03-26 17:37:24 INFO  Plus:12 - The start of the Plus command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 ERROR Factory:53 - Error executing command: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 ERROR Controller:39 - Error executing command there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Controller:46 - Program completed
+2025-03-26 17:37:24 INFO  Controller:27 - The program will read data from the file
+2025-03-26 17:37:24 INFO  Parser:12 - The program considered a line: PUSH 9
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: PUSH 9
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: PUSH 9
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Parser:12 - The program considered a line: # fg
+2025-03-26 17:37:24 INFO  Controller:32 - The program considered a comment
+2025-03-26 17:37:24 INFO  Controller:46 - Program completed
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: +
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: +
+2025-03-26 17:37:24 INFO  Plus:12 - The start of the Plus command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 ERROR Factory:53 - Error executing command: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Factory:41 - Received command: PUSH 9
+2025-03-26 17:37:24 INFO  Factory:50 - Executing command: PUSH 9
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Parser:18 - The program considered a line: Hello, world!
+2025-03-26 17:37:24 INFO  Parser:12 - The program considered a line: Hello, world!
+2025-03-26 17:37:24 INFO  Define:19 - The start of the Define command execution
+2025-03-26 17:37:24 INFO  Define:30 - Added parameter value a
+2025-03-26 17:37:24 INFO  Define:19 - The start of the Define command execution
+2025-03-26 17:37:24 ERROR Define:26 - Error: Enter the number with the second parameter
+2025-03-26 17:37:24 INFO  Division:13 - The start of the Division command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 0.0 added to stack
+2025-03-26 17:37:24 INFO  Division:13 - The start of the Division command execution
+2025-03-26 17:37:24 ERROR Division:21 - Error: It cannot be divided by 0
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Division:13 - The start of the Division command execution
+2025-03-26 17:37:24 INFO  Division:25 - The division of the numbers 9.0 by the number 9.0
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 8.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 7.0 added to stack
+2025-03-26 17:37:24 INFO  Minus:13 - The start of the Minus command execution
+2025-03-26 17:37:24 INFO  Minus:20 - Subtraction of the number 7.0 from among 8.0
+2025-03-26 17:37:24 INFO  Minus:13 - The start of the Minus command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 8.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 7.0 added to stack
+2025-03-26 17:37:24 INFO  Multiplication:12 - The start of the Multiplication command execution
+2025-03-26 17:37:24 INFO  Multiplication:20 - Multiplication of the number 7.0 by the number 8.0
+2025-03-26 17:37:24 INFO  Multiplication:12 - The start of the Multiplication command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 8.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 7.0 added to stack
+2025-03-26 17:37:24 INFO  Plus:12 - The start of the Plus command execution
+2025-03-26 17:37:24 INFO  Plus:20 - Added of the number 7.0 by the number 8.0
+2025-03-26 17:37:24 INFO  Plus:12 - The start of the Plus command execution
+2025-03-26 17:37:24 ERROR Division:11 - Error: there are 0 values on the stack, you need at least 2
+2025-03-26 17:37:24 INFO  Pop:12 - The start of the Pop command execution
+2025-03-26 17:37:24 ERROR Division:17 - Error: Stack is empty
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 8.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Pop:12 - The start of the Pop command execution
+2025-03-26 17:37:24 INFO  Pop:18 - The number is removed from the stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 8.0 added to stack
+2025-03-26 17:37:24 INFO  Print:12 - The start of the Print command execution
+2025-03-26 17:37:24 INFO  Print:19 - The number is printed
+2025-03-26 17:37:24 INFO  Print:12 - The start of the Print command execution
+2025-03-26 17:37:24 ERROR Division:17 - Error: Stack is empty
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 8.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 ERROR Push:29 - Error: Enter the number with the parameter
+2025-03-26 17:37:24 INFO  Define:19 - The start of the Define command execution
+2025-03-26 17:37:24 INFO  Define:30 - Added parameter value a
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:21 - Number 2.0 added to stack
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number 9.0 added to stack
+2025-03-26 17:37:24 INFO  Sqrt:12 - The start of the Sqrt command execution
+2025-03-26 17:37:24 INFO  Sqrt:23 - Take the root from number 9.0
+2025-03-26 17:37:24 INFO  Sqrt:12 - The start of the Sqrt command execution
+2025-03-26 17:37:24 ERROR Division:17 - Error: Stack is empty
+2025-03-26 17:37:24 INFO  Push:17 - The start of the Push command execution
+2025-03-26 17:37:24 INFO  Push:26 - Number -3.0 added to stack
+2025-03-26 17:37:24 INFO  Sqrt:12 - The start of the Sqrt command execution
+2025-03-26 17:37:24 ERROR Sqrt:20 - Error: Number -3.0<0, but the number must be non-negative

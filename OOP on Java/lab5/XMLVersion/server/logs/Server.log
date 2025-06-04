@@ -1,0 +1,10 @@
+2025-05-04 01:19:44 INFO  Main:10 - The beginning of the program
+2025-05-04 01:19:55 INFO  Main:19 - fds connect on server
+2025-05-04 01:19:56 INFO  Main:19 - ggg connect on server
+2025-05-04 01:19:57 INFO  Main:19 - zzz connect on server
+2025-05-04 01:20:00 INFO  Main:37 - fds wrote: re
+2025-05-04 01:20:03 INFO  Main:37 - ggg wrote: gfdhh
+2025-05-04 01:20:05 INFO  Main:37 - zzz wrote: bbb
+2025-05-04 01:20:08 INFO  Main:49 - zzz is disconnect
+2025-05-04 01:20:09 INFO  Main:49 - ggg is disconnect
+2025-05-04 01:20:10 INFO  Main:49 - fds is disconnect
