@@ -24,10 +24,10 @@
 
 ## Пример использования
 
-DEFINE a 4
-PUSH a
-SQRT
-PRINT
+- DEFINE a 4
+- PUSH a
+- SQRT
+- PRINT
 
 
 Ожидаемый вывод: `2`
